@@ -1,0 +1,14 @@
+.mobileEmul_window {
+    background-color: #151515;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_frame {
+        background-color: #fff;
+        width: min(430px, 100%);
+        height: min(932px, 100vh);
+    }
+}
