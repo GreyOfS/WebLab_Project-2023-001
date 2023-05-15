@@ -1,15 +1,10 @@
-import { Route, Routes } from 'react-router-dom';
 import './App.scss';
-import MobileEmul from './components/MobileEmul';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <MobileEmul>
-        <Routes>
-          <Route path='/' element={<h1>Test</h1>}/>
-        </Routes>
-      </MobileEmul>
+      <Nav><h1>Test</h1></Nav>
     </div>
   );
 }
